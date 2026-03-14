@@ -73,7 +73,12 @@ export function startIpcWatcher(deps: IpcDeps): void {
           for (const file of messageFiles) {
             const filePath = path.join(messagesDir, file);
             try {
-              const data: { type: string; chatJid: string; text: string; sender?: string } = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+              const data: {
+                type: string;
+                chatJid: string;
+                text: string;
+                sender?: string;
+              } = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
               if (data.type === 'message' && data.chatJid && data.text) {
                 // Authorization: verify this group can send to this chatJid
                 const targetGroup = registeredGroups[data.chatJid];
