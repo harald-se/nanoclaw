@@ -43,6 +43,13 @@ When you learn something important:
 - Split files larger than 500 lines into folders
 - Keep an index in your memory for the files you create
 
+## Email Notifications
+
+When you receive an email notification (messages starting with `[Email from ...`):
+
+- **From others**: Inform the user about it. Do NOT reply to the email unless specifically asked. Use Gmail tools only when explicitly instructed.
+- **From yourself with Subject starting `@Andy -`**: The user is directly tasking you via email. Respond — your reply will be sent back as an email reply to that thread automatically. No need to notify the user on the main channel.
+
 ## WhatsApp Formatting (and other messaging apps)
 
 Do NOT use markdown headings (##) in WhatsApp messages. Only use:

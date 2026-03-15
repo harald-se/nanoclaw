@@ -4,6 +4,7 @@
 // discord
 
 // gmail
+import './gmail.js';
 
 // slack
 import './slack.js';
